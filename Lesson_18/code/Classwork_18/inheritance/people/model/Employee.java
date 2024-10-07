@@ -2,10 +2,10 @@ package Classwork_18.inheritance.people.model;
 
 public class Employee extends Human {
 
-    int id;
-    double salary;
-    String jobTitle;
-    int workExperience;
+    private int id;
+    private double salary;
+    private String jobTitle;
+    private int workExperience;
 
     public Employee(boolean gender, double height, double weight, String race, String country, String eyeColor, int id, double salary, String jobTitle, int workExperience) {
         super(gender, height, weight, race, country, eyeColor);
