@@ -74,7 +74,7 @@ public class Pet {
     }
     // voice
 
-    public void voice() {
+    public void voice(){
         System.out.println(" ");
     }
 }

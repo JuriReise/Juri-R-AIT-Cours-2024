@@ -7,6 +7,7 @@ package Classwork_18.computer_shop;
 import Classwork_18.computer_shop.model.Computer;
 import Classwork_18.computer_shop.model.Laptop;
 import Classwork_18.computer_shop.model.Smartphone;
+// Найти общий вес всех мобильных устройств в ComputerShop.
 
 public class ShopAppl {
     public static void main(String[] args) {
@@ -22,9 +23,20 @@ public class ShopAppl {
         computers[0] = new Computer("i7", 8, 256, "Acer", 1200);
         computers[1] = new Computer("i5", 16, 256, "HP", 1500);
         computers[2] = new Computer("AMD", 8, 256, "NoName", 2000);
-        computers[3] = new Laptop("Apple", 8, 256, "MacBook", 2000,  14, 1.5, 10, "white");
-        computers[4] = new Laptop("Apple", 16, 512, "MacBook Air", 2500,  14.2, 1.8, 12, "black");
-        computers[5] = new Smartphone("Qortex", 16, 512, "Edge 40 pro", 560,  9.2, 0.3, 24, "blackblue", 123456789);
+        computers[3] = new Laptop("Apple", 8, 256, "MacBook", 2000,  14, 1.5, 10, "white"); // down casting
+        computers[4] = new Laptop("Apple", 16, 512, "MacBook Air", 2500,  14.2, 1.8, 12, "black"); // down casting
+        computers[5] = new Smartphone("Qortex", 16, 512, "Edge 40 pro", 560,  9.2, 1.45, 24, "blackblue", 123456789L); // down casting
+
+        double totalWeight = 0;
+        for (int i = 0; i < computers.length; i++) {
+            if(computers[i] instanceof Laptop){
+                Laptop myLaptop = (Laptop)computers[i]; // upper casting
+                totalWeight += myLaptop.getWeight();
+            }
+
+        }
+        System.out.println("Total Weight: " + totalWeight);
+        System.out.println("-------------------------------------------");
 
         int totalSsd = 0;
         for (int i = 0; i < computers.length; i++) {
@@ -50,5 +62,6 @@ public class ShopAppl {
         for (int i = 0; i < computers.length; i++) {
             System.out.println(computers[i].getBrand());
         };
+
     }
 }
