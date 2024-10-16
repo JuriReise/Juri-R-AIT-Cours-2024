@@ -27,29 +27,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Lesson_25/code" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Lesson_23/code" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Lesson_24/code" isTestSource="false" />
-      <excludeFolder url="file://$MODULE_DIR$/Lesson_08" />
-      <excludeFolder url="file://$MODULE_DIR$/Lesson_09" />
-      <excludeFolder url="file://$MODULE_DIR$/Lesson_11" />
-      <excludeFolder url="file://$MODULE_DIR$/Lesson_12" />
-      <excludeFolder url="file://$MODULE_DIR$/Lesson_13" />
-      <excludeFolder url="file://$MODULE_DIR$/Lesson_14" />
-      <excludeFolder url="file://$MODULE_DIR$/lesson_01_intro" />
-      <excludeFolder url="file://$MODULE_DIR$/lesson_02" />
-      <excludeFolder url="file://$MODULE_DIR$/lesson_03" />
-      <excludeFolder url="file://$MODULE_DIR$/lesson_04" />
-      <excludeFolder url="file://$MODULE_DIR$/lesson_05" />
-      <excludeFolder url="file://$MODULE_DIR$/lesson_06" />
       <excludeFolder url="file://$MODULE_DIR$/lesson_06/code/Classwork_06" />
-      <excludeFolder url="file://$MODULE_DIR$/lesson_07" />
-      <excludeFolder url="file://$MODULE_DIR$/lesson_10" />
-      <excludeFolder url="file://$MODULE_DIR$/Lesson_15_String" />
-      <excludeFolder url="file://$MODULE_DIR$/Lesson_16" />
-      <excludeFolder url="file://$MODULE_DIR$/Lesson_17" />
-      <excludeFolder url="file://$MODULE_DIR$/Lesson_18" />
-      <excludeFolder url="file://$MODULE_DIR$/Lesson_19" />
-      <excludeFolder url="file://$MODULE_DIR$/Lesson_20" />
-      <excludeFolder url="file://$MODULE_DIR$/Lesson_21" />
-      <excludeFolder url="file://$MODULE_DIR$/Lesson_22" />
     </content>
     <content url="file://$MODULE_DIR$/out" />
     <orderEntry type="inheritedJdk" />
